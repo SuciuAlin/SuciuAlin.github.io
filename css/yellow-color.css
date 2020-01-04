@@ -29,6 +29,11 @@
   .subheading h3:before, .subheading h3:after {
     background-color: #D1A71D; }
 
+.skill-item h4 {
+color:#D1A71D !important;
+font-size:20px;
+}
+
 .banner-section h1 span {
   color: #D1A71D; }
 
