@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head><title>Acasa</title>
+traseul portilor
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\sursa1.css">
+<link rel="stylesheet" href="css\sursa2.css">
+<link rel="stylesheet" href="css\font-awesome-4.7.0\css\font-awesome.min.css">
+<link rel="stylesheet" href="css\font-awesome-4.7.0\css\font-awesome.css">
+
+@-ms-viewport { width: device-width; }
+<style type="text/css">
+@font-face {
+    font-family: "Roman";
+    src: url(font/LibreBaskerville-Regular.otf) format("truetype");
+}
+p.roman { 
+    font-family: "Roman", Verdana, Tahoma;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+ 
+  position: relative;
+  margin: auto;
+}
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+
+</style>
+</head>
+<body id="myPage">
+
+<!-- Side Navigation on click -->
+<nav class="mine-sidenav mine-white mine-card-2 mine-animate-left" style="display:none;z-index:2" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="mine-closenav mine-xxxlarge mine-text-teal">Închide
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#despre">Despre</a>
+  <a href="#evolutia">Evolu&#355ie</a>
+  <a href="acasa.html#obiective">Obiective</a>
+  <a href="#personalitati">Personalit&#259;&#355i</a>
+  
+</nav>
+
+<!-- Navbar realizat de (c)Suciu Alin-->
+<div class="mine-top">
+ <ul class="mine-navbar mine-theme-d2 mine-left-align">
+  <li class="mine-hide-medium mine-hide-large mine-opennav mine-right">
+    <a class="mine-hover-white mine-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  </li>
+  <li><a href="acasa.html" class="mine-teal"><i class="fa fa-home mine-margin-right"></i>Alba Iulia</a></li>
+  <li class="mine-hide-small"><a href="acasa.html#despre" class="mine-hover-white">Despre cetate</a></li>
+  <li class="mine-hide-small mine-dropdown-hover">
+    <a href="acasa.html#evolutia" title="Timp">Evolu&#355;ie în timp <i class="fa fa-caret-down"></i></a>     
+    <div class="mine-dropdown-content mine-white mine-card-4">
+      <a href="acasa.html#evolutia">Castrul roman</a>
+      <a href="acasa.html#evolutia">Cetatea medieval&#259;</a>
+      <a href="acasa.html#evolutia">Cetatea de tip vauban </a>
+      <a href="acasa.html#evolutia">Cetatea în prezent </a>
+    </div>
+  </li>
+  <li class="mine-hide-small"><a href="acasa.html#obiective" class="mine-hover-white">Obiective turistice</a></li>
+  <li class="mine-hide-small mine-dropdown-hover">
+    <a href="acasa.html#personalitati" title="Personalitati">Personalit&#259;&#355;i &#351;i evenimente <i class="fa fa-caret-down"></i></a>     
+    <div class="mine-dropdown-content mine-white mine-card-4">
+      <a href="personalitati.html">Personalit&#259;&#355;i</a>
+      <a href="evenimente.html">Evenimente</a>
+      
+    </div>
+  </li>
+  
+  <li class="mine-hide-small mine-right"><a href="#inceput" class="mine-hover-teal" title="Search"><i class="fa fa-chevron-circle-up"></i></a></li>
+ </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="mine-hide mine-hide-large mine-hide-medium">
+    <ul class="mine-navbar mine-left-align mine-theme">
+      <li><a href="acasa.html#despre">Despre cetate</a></li>
+      <li class="mine-dropdown-hover">
+      <a href="acasa.html#evolutia" title="Notifications">Evolu&#355;ie în timp</a>     
+      
+      </li>
+      <li><a href="acasa.html#obiective">Obiective turistice</a></li>
+      <li class="mine-dropdown-hover">
+      <a href="javascript:void(0);" title="Notifications">Personalit&#259;&#355;i &#351;i evenimente<i class="fa fa-caret-down"></i></a>     
+      <div class="mine-dropdown-content mine-light-grey mine-card-4">
+      <a href="personalitati.html">Personalit&#259;&#355;i</a>
+      <a href="evenimente.html">Evenimente</a>
+     
+      </div>
+      </li>
+      
+      
+    </ul>
+  </div>
+</div>
+
+		<!-- Imaginea cetatii -->
+
+
+<a name="inceput"></a>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="img/submeniu.jpg" style="width:100%;min-height:250px;max-height:1000px;">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+ <img src="img/submeniu2.jpg" style="width:100%;min-height:250px;max-height:1000px;">
+  
+</div>
+
+<div class="mySlides fade">
+  
+   
+  <img src="img/submeniu4.jpg" style="width:100%;min-height:250px;max-height:1000px;">
+ 
+</div>
+
+</div>
+</div>
+<br>
+
+<div style="text-align:center;" >
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+</script>
+
+
+
+<!-- Despre cetate -->
+
+
+<a name="despre"></a>
+<div class="mine-container mine-padding-64 mine-center" id="team">
+
+<h1 style="font:105px Times New Roman;">Despre cetate</h1>
+<p style="font:55px Times New Roman;">Cetatea medieval&#259; Alba Iulia -Traseul Celor Trei Fortifica&#355;ii</p>
+
+<div class="mine-row"><br>
+
+<p style="font:35px Times New Roman;text-align:left;">
+&nbsp;&nbsp;&nbsp;Situat &#238;n inima Ardealului, in zona de contact a Podi&#351;ului Transilvaniei cu Mun&#355;ii Apuseni (Masivul Trasc&#259;ului), pe cursul mijlociu al r&#226;ului Mure&#351;, municipiul Alba Iulia poart&#259; &#238;n mod simbolic titlul de Capital&#259; de Suflet a Neamului Rom&#226;nesc.
+<br>
+&nbsp;&nbsp;&nbsp;Obiectiv turistic unic &#238;n Europa, "Traseul celor trei fortifica&#355;ii: ofer&#259; vizitatorilor posibilitatea de a c&#259;l&#259;tori &#238;n timp de-a lungul a dou&#259; milenii de istorie, printre vestigiile a trei fortifica&#355;ii, din trei epoci diferite, construite succesiv pe aceea&#351;i loca&#355;ie, fiecare nou&#259; cetate incluz&#226;nd-o pe cea veche: Castrul Roman Apulum (106 d.Ch.), Cetatea Medieval&#259; B&#259;lgrad (sec. XVI-XVII) &#351;i Cetatea Alba Carolina, fortificatie de tip Vauban (sec. XVIII). Garda patruleaz&#259; zilnic prin cetate &#238;n sunet de potcoave.  Scopul &#238;n care a fost creat&#259; mica armat&#259; este &#238;n primul r&#226;nd unul istoric &#351;i turistic.
+<br>
+&nbsp;&nbsp;&nbsp;Numeroase izvoare atest&#259; existen&#355;a pe acest teritoriu &#351;i în împrejurimile lui imediate, a unor a&#351;ez&#259;ri preistorice datând din mileniul al V-lea î.dC. &#351;i în partea de nord a ora&#351;ului s-a descoperit o important&#259; a&#351;ezare neolitic&#259; (5000-1900 î.dC.). 	
+</p>
+
+</div>
+</div>
+
+
+
+		<!-- Evolutie in timp -->
+
+<a name="evolutia"></a>
+<div class="mine-container mine-padding-64 mine-theme-l1 " >
+
+<h1> Evolu&#355;ia cet&#259;&#355;ii în Timp </h1>
+
+
+<div class="mine-quarter">
+<div class="mine-card-2 mine-white">
+  <img src="img/castru.jpg" alt="Castrul roman" style="width:100%" height="400">
+  <div class="mine-container" >
+  <h3 align=center>Castrul Roman Apulum 106-271 </h3>
+    
+          <p class="roman">
+Dup&#259; cucerirea Daciei de c&#259;tre romani, în urma celui de-al doilea r&#259;zboi daco-roman, în zona s-a stabilit faimoasa legiune roman&#259; – Legiunea a-XIII-a Gemina. Aceasta a întemeiat aici prima fortifica&#355;ie a zonei, Castrul Roman Apulum. Aceasta era comun fortifica&#355;iilor romane din Europa, având o form&#259; patrulater&#259;, cu câte o poart&#259; pe fiecare latur&#259;. În urma identific&#259;rii pozi&#355;iei por&#355;ii de sud a castrului a fost posibil&#259; reconstruirea acesteia astfel încât, în prezent, poate fi admirat&#259; de catre turistii care viziteaz&#259; Cetatea.
+<br>
+*Legiunea a XIII-a Gemina a fost întemeiat&#259; în jurul anului 53. Î.H., de c&#259;tre Iulius Cezar, fiind cea mai longeviv&#259; legiune a Imperiului.
+<br>
+*dupa destramarea legiunii, steagul acesteia, având ca simbol leul, nu a mai fost g&#259;sit niciodat&#259;, fiind subiectul mai multor legende.
+<br>
+*Castrul Roman Apulum a fost vizitat de c&#259;tre trei împarati romani.
+<br><br>
+
+Castrul roman Apulum a fost unul dintre cele mai importante centre ale stap&#226;nirii romane de pe teritoriul Daciei. El a fost construit &#238;n anul 106, pe malurile Mure&#351;ului, la o distan&#355;&#259; de cca 20 km de cetatea dacic&#259; Apoulon. Construirea castrului a fost determinat&#259; de cantonarea &#238;n aceast&#259; zon&#259; a Legiunii a XIII-a Gemina (106-271), dislocat&#259; din Vindobona, actualul ora&#351; Viena. Legiunea avea rolul de a p&#259;zi  &#355;inutul aurifer &#351;i drumul de transport al aurului c&#259;tre Roma.
+Dimensiunile castrului erau 400 x 400 metri, &#238;n timp ce cl&#259;dirile adiacente castrului, a&#351;a-numitele canabae legionis, se extindeau pe o suprafa &#355;&#259; de aproximativ 500 x 700 de metri p&#259;tra &#355;i.
+
+</p>
+
+</div>
+    
+  </div>
+  </div>
+
+
+
+
+<div class="mine-quarter">
+<div class="mine-card-2 mine-white">
+  <img src="img/p_medievala.jpg" alt="Cetatea medievala" style="width:100%" height="400">
+  <div class="mine-container" >
+  <h3 align=center>Cetatea medievala</h3>
+    <h4 align=center>Cetatea B&#259;lgradului 1541-1711</h4>
+       
+  <p class="roman">
+Pentru a face fata noilor tehnici militare în perioada medievala, fortificatia facuta de catre romani a fost modernizata, construindu-se doua bastioane (Bastionul Bethlem si Bastionul Sasilor) si un turn de aparare în fata portii principale (Poarta Sf. Gheorghe). De asemenea, s-au întarit zidurile. Pentru ca s-a folosit multa piatra alba de calcar, noua cetate a capatat numele de Cetatea Balgradului (Cetatea Alba).
+<br>
+*prin poarta Sf. Gheorghe a intrat în cetate, la 1 nov. 1599 Mihai Viteazul
+<br>
+*orasul a fost între anii 1541-1711 resedinta principilor Transilvaniei si astfel capitala politica a Principatului Transilvaniei
+<br>
+*primul principe al Transilvaniei, Ioan Sigismund, este înmormântat în interiorul Catedralei Romano-Catolice, care adaposteste si mormântul lui Iancu de Hunedoara. 
+
+<br><br>
+
+Numele de Balgrad vine pe filiera bulgara când în jurul anului 830 &#355;aratul bulgar s-a extins pâna pe Mure&#351;ul Mijlociu pentru controlul sarii &#351;i a circula&#355;iei acestui mineral &#351;i deriva probabil de la aspectul zidurilor albe de piatra ale castrului roman.
+Numele de Alba vine pe filiera maghiara din perspectiva noului stapân, care avea deja o ”Alba” în Ungaria Szekesfehervar (Alba Regia) – Alba Scaunului, iar Balgrad devine Alba lui Gyla (Gyulafehervar). ”Iulia” este un termen mai târziu de la sf. Evului mediu.
+ Consolidat si adaptat la noile cerinte defensive, vechiul castru roman a fost transformat  în timpul dinastiei arpadiene  în cetate regala, pastrându-si în prima etapa terminologia antica a fortificatiei.
+</p>
+</div>
+
+    
+  </div>
+  </div>
+
+
+<div class="mine-quarter">
+<div class="mine-card-2 mine-white">
+  <img src="img/vauban.jpg" alt="Cetatea medievala" style="width:100%" height="400">
+  <div class="mine-container" >
+  <h3 align=center>Cetatea Alba Carolina 1715 – 1918</h3>
+   
+  <p class="roman">
+ Construita în perioada 1715 -1738, Cetatea Alba Carolina trebuia sa fie în centrul stapânirii habsburgice în Transilvania, având rolul de depozit de armament, dar si garnizoana pentru soldati. Noua fortificatie înglobeaza în zidurile ei piatra si parti din zidurile fortificatiilor anterioare. La constructia acestei cetati au fost adusi în zona cei mai renumiti sculptori si mesteri ai vremii, fortificatia fiind proiectata de arhitectul italian Giovano Morandi Visconti. Cetatea trebuia sa simbolizeze gloria si maretia Imperiului Habsburgic si a împaratului Carol al VI-lea, descendentul celei mai longevive dinastii a Europei: Dinastia Habsburgilor.
+<br><br>
+*la constructia zidurilor cetatii, cu un perimetru de peste 12 km, în zona au fost adusi peste 20.000 de iobagi, care lucrau în serii de câte 2 saptamâni.
+<br><br>
+*cetatea de tip Vauban (sub forma de stea cu 7 colturi) este cea mai mare de acest tip din sud-estul Europei.
+<br><br>
+Cetatea denumita de austrieci Alba Carolina în cinstea Împaratului lor, Carol al VI-lea,  a fost ridicata la scurt timp de la instaurarea dominatiei habsburgilor în Transilvania. Ridicata între anii 1715-1738, cetatea este de fapt cea mai reprezentativa si importanta fortificatie  de tip „Vauban” din România, fiind concomitent si una dintre cele mai importante de acest fel din Europa. În acela&#351;i timp,  cetatea Alba Carolina este si cel mai semnificativ ansamblu baroc din Transilvania.
+
+
+
+
+</p>
+</div>
+
+    
+  </div>
+  </div>
+
+
+
+<div class="mine-quarter">
+<div class="mine-card-2 mine-white">
+  <img src="img/prezent.jpg" alt="Cetatea in prezent" style="width:100%" height="400">
+  <div class="mine-container" >
+  <h3 align=center>Cetatea in prezent</h3>
+    
+  <p class="roman">
+ La data de 13 aprilie 2007 a avut loc inaugurarea oficiala a "Pie&#355;ei Allessandria" în Alba Iulia, în care este amplasata statuia "Lupa Capitolina", ca simbol al înfra&#355;irii dintre Alba Iulia &#351;i Alessandria. Recent, cetatea Alba Iulia a fost desemnata ca una dintre cele 7 Minuni ale României, în urma unei campanii mass-media desfa&#351;urate în 2007. La 29 mai 2009, Alba Iulia a intrat în Guiness Book, prin evenimentul denumit "marea îmbra&#355;i&#351;are" a fortifica&#355;iei Vauban, la care au participat 9.758 de oameni, printre care &#351;i pre&#351;edintele României Traian Basescu, acesta fiind înregistrat oficial cu numele si datele de contact pe listele transmise spre Guiness Book.
+<br><br>
+  Începând din vara anului 2007, Alba Iulia are o garda calare a ceta&#355;ii medievale. Dupa multe cautari &#351;i negocieri, Primaria Municipiului Alba Iulia a reu&#351;it sa achizi&#355;ioneze câ&#355;iva cai, pentru înzestrarea unei mici armate simbolice. Încercând sa readuca în cetatea istorica aerul epocii din care dateaza zidurile Ceta&#355;ii Alba Iulia, administra&#355;ia locala s-a zbatut pentru a forma &#351;i înzestra aceasta mica unitate de garda. Investitorii priva&#355;i care administreaza zonele istorice au reu&#351;it, alaturi de primarie, sa creeze un peisaj &#351;i un spectacol unic la Alba Iulia - Traseul Celor Trei Fortifica&#355;ii. S-au deschis un pub, o crama &#351;i un restaurant în interiorul zidurilor ceta&#355;ii Vauban.
+
+<br><br>
+</p>
+</div>
+
+    
+  </div>
+  </div>
+
+</div>
+<!-- Container -->
+<div class="mine-container" style="position:relative">
+  <a onclick="w3_open()" class="mine-btn-floating-large mine-teal" style="position:absolute;top:-28px;right:24px;z-index:0;">
+  <i class="fa fa-plus"></i></a>
+</div>
+
+
+
+
+
+<a name="obiective"></a>
+<div class="mine-container mine-padding-64 " >
+
+<h1> Obiective turistice </h1>
+
+<h2 class="roman">Alba Iulia – Orasul Unirii </h2>
+</div>
+
+<div class="mine-container mine-padding-64 " >
+<div class="mine-quarter">
+<img src="img/obiectiv4.jpg"  width="90%" style="float:right;height:300px;">
+</div>
+
+
+  
+  
+
+
+<div class="mine-quarter" >
+<img src="img/obiectiv1.jpg" width="90%"  style="float:right;height:300px;">
+</div>
+
+<div class="mine-quarter" >
+<img src="img/obiectiv2.jpg"  width="90%" style="float:right;height:300px;">
+</div>
+
+<div class="mine-quarter" >
+<img src="img/obiectiv3.jpg"  width="90%" style="float:right;height:300px;">
+</div>
+</div>
+
+
+<button class="mine-btn mine-teal mine-padding-large" id="porti" class="float-left submit-button" style="position:relative;top:20px;" > 
+<p style="font:30px Arial;">
+Traseul fortifica&#355;iilor
+		</p></button>
+	
+<script type="text/javascript">
+    document.getElementById("porti").onclick = function () {
+        location.href = "porti.html";
+    };
+</script>
+
+
+
+
+<button class="mine-btn mine-teal mine-padding-large" id="myButton" class="float-left submit-button" style="position:relative;top:20px;" > 
+<p style="font:30px Arial;">
+18 obiective turistice de vizitat
+		</p></button>
+	
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "obiective.html";
+    };
+</script>
+
+<br>
+<br>
+<br>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- Personalit&#259;&#355;i &#351;i evenimente -->
+
+
+
+<a name="personalitati"> </a>
+<div class="mine-row-padding mine-center mine-padding-64 mine-theme-l1">
+    <h2>Personalit&#259;&#355;i &#351;i evenimente</h4>
+    <h4>care au marcat existen&#355;a cet&#259;&#355;ii</p><br>
+    <div class="mine-third mine-margin-bottom" style="float:left;position:relative;left:8%;">
+      <ul class="mine-ul mine-border mine-hover-shadow">
+        <li class="mine-theme">
+          <p class="mine-xlarge">Personalit&#259;&#355;i</p>
+        </li>
+        <li class="mine-padding-16"><b>Iancu de Hunedoara</b></li>
+	<li class="mine-padding-16"><b>Mihai Viteazul</b></li>
+        <li class="mine-padding-16"><b>Horea, Clo&#351;ca &#351;i Cri&#351;an</b> </li>
+        <li class="mine-padding-16"><b>Gheorghe Pop de B&#259;se&#351;ti</b> </li>
+        <li class="mine-padding-16"><b>Iuliu Maniu</b> </li>
+	<li class="mine-padding-16"><b>Vasile Goldi&#351;</b> </li>
+	<li class="mine-padding-16"><b>Miron Cristea</b> </li>
+	<li class="mine-padding-16"><b>Iuliu Hossu</b> </li>
+	<li class="mine-padding-16"><b>Ferdinand &#351;i Maria</b> </li>
+
+        <li class="mine-theme-l5 mine-padding-24">
+		<button class="mine-btn mine-teal mine-padding-large" id="Button" class="float-left submit-button" > <i class="fa fa-check"></i> 
+Mai multe detalii
+		</button>
+	
+<script type="text/javascript">
+    document.getElementById("Button").onclick = function () {
+        location.href = "personalitati.html";
+    };
+</script>
+        </li>
+      </ul>
+    </div>
+
+  
+
+    <div class="mine-third mine-margin-bottom" style="float:right;position:relative;right:8%;">
+      <ul class="mine-ul mine-border mine-hover-shadow">
+        <li class="mine-theme">
+          <p class="mine-xlarge">Evenimente</p>
+        </li>
+        <li class="mine-padding-16"><b>Unirea lui Mihai Viteazul(1600)</b></li>
+        <li class="mine-padding-16"><b>R&#259;scoala lui Horea, Clo&#351;ca &#351;i Cri&#351;an(1784)</b> </li>
+        <li class="mine-padding-16"><b>Marea Unire(1918)</b> </li>
+        <li class="mine-padding-16"><b>&#206;ncoronarea regelui Ferdinand &#351;i a Mariei ( octombrie 1922)</b> </li>
+        <li class="mine-padding-16"><b>Reforma administrativ&#259;</b> </li>
+        <li class="mine-theme-l5 mine-padding-24">
+          <button class="mine-btn mine-teal mine-padding-large" id="evenimente" class="float-left submit-button" > <i class="fa fa-check"></i> 
+Mai multe detalii
+		</button>
+	
+<script type="text/javascript">
+    document.getElementById("evenimente").onclick = function () {
+        location.href = "evenimente.html";
+    };
+</script>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Google Maps -->
+<div id="googleMap" style="width:100%;height:500px;"></div>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(46.067013875567554, 23.56987953186035);
+
+function initialize() {
+var mapProp = {
+  center: myCenter,
+  zoom: 12,
+  scrollwheel: false,
+  draggable: true,
+ fullscreenControl:true,
+streetView:true,
+streetViewControl:true,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position: myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!-- Footer -->
+<footer class="mine-container mine-padding-32 mine-theme-d1 mine-center" >
+
+  <p> &copy;<i>Istorie &#351;i societate în dimensiune virtuala.</i></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="mine-tooltip mine-right">
+    <span class="mine-text mine-padding mine-teal mine-hide-small" style="height:60px;">Inapoi<br> Sus</span>   
+    <a class="mine-btn mine-theme" href="#inceput"><span class="mine-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<!-- Script pt navigare laterala -->
+<script>
+function w3_open() {
+    var x = document.getElementById("mySidenav");
+    x.style.width = "300px";
+    x.style.textAlign = "center";
+    x.style.fontSize = "20px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+
+// Folosit pt  meniu on pe ecranele mai mici cand se apasa pe butonul de meniu
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("mine-show") == -1) {
+        x.className += " mine-show";
+    } else { 
+        x.className = x.className.replace(" mine-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
