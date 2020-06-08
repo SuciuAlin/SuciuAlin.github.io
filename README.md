@@ -1,3 +1,3 @@
 # SuciuAlin.github.io
 
-Webpage about me 
+Get all the info needed about me, my work, and my background
